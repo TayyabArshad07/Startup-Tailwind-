@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head-nav{
+    display: flex;
+}
+@media (max-width:880px) and (min-width:275px){
+    nav{
+        display: flex;
+        flex-direction:column;
+        padding-left: 0px;
+    }
+    #sign{
+        height: fit-content;
+        gap: 0px;
+    }
+    .head-nav{
+        display: flex;
+        flex-direction:column;
+        gap: 0px;
+    }
+}
